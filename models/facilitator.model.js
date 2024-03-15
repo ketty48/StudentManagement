@@ -35,7 +35,7 @@ const facilitatorSchema = new mongoose.Schema({
             message:"Technical Facilitator or Assistant Technical Facilitator"
         }
     }
-}, {timeStamp:true}
+}, {timestamps:true}
     )
     const Facilitator = mongoose.model("facilitator", facilitatorSchema);
     export default Facilitator;
